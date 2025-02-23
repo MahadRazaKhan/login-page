@@ -1,9 +1,9 @@
 # Login Page with MySQL Backend 🚀
 ### Login Page
-![Login Page](./screenshots/login-page.png)
+![Login Page](login.png.png)
 
 ### Home Page
-![Home Page](./screenshots/home-page.png)
+![Home Page](home.png.png)
 
 A fully functional login page with a modern design, built using **Node.js**, **Express.js**, and **MySQL**. This project demonstrates seamless integration of frontend, backend, and database for user authentication.
 

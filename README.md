@@ -37,3 +37,6 @@ A fully functional login page with a modern design, built using **Node.js**, **E
 - **Database:** MySQL
 - **Styling:** Google Fonts (Poppins), CSS Animations, Media Queries
 
+---
+
+![GIF](https://miro.medium.com/v2/resize:fit:842/1*Cp0fpBqgGxt3Sb_mWClqww.gif)

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="home-container">
+    <header>
+      <h1>Welcome to Our Platform</h1>
+      <p>Your journey to success starts here.</p>
+    </header>
+
+    <section class="features">
+      <div class="feature-card">
+        <h2>Explore</h2>
+        <p>Discover new opportunities and resources tailored for you.</p>
+      </div>
+      <div class="feature-card">
+        <h2>Connect</h2>
+        <p>Join a community of like-minded individuals and grow together.</p>
+      </div>
+      <div class="feature-card">
+        <h2>Achieve</h2>
+        <p>Reach your goals with our tools and support.</p>
+      </div>
+    </section>
+
+    <footer>
+      <button onclick="logout()">Logout</button>
+    </footer>
+  </div>
+
+  <script>
+    function logout() {
+      fetch('/logout', { method: 'POST' })
+        .then(() => {
+          window.location.href = '/'; // Redirect to login page
+        });
+    }
+  </script>
+</body>
+</html>
